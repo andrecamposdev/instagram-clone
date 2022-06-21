@@ -44,7 +44,7 @@ body {
     align-items: center; /* horizontal */
     justify-content: space-around; /* vertical */
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     min-height: 34rem;
 }
 
@@ -133,14 +133,13 @@ body {
 footer{
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
 
 footer div{
     text-align: center;
-    padding: 5px;
-    text-decoration: none;
-    line-height: 25px;
-    
+    padding: 5px;   
+    line-height: 20px;
 }
 
 footer div a{
@@ -156,6 +155,10 @@ footer div a{
 @media (max-width: 1024px) {
     .instagram-wrapper {
         width: 90%;
+    }
+
+    .instagram-phone {
+        display: none;
     }
 }
 
